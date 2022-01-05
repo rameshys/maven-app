@@ -20,7 +20,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	
+<distributionManagement>	
     <repositories>
         <repository>
             <id>org.springframework.maven.release</id>
@@ -38,5 +38,5 @@
             <snapshots><enabled>true</enabled></snapshots>
         </repository>
     </repositories>
-	
+  </distributionManagement>	
 </project>
